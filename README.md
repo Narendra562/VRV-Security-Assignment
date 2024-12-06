@@ -67,3 +67,44 @@ If you encounter any issues or need further clarification, feel free to contact 
 
 - Email: narendravasa242003@gmail.com
 - Phone: +91 9059346489
+
+## Folder Structure
+
+- frontend *(Folder)*
+  - .gitignore *(File)*
+  - package-lock.json *(File)*
+  - package.json *(File)*
+  - public *(Folder)*
+  - src *(Folder)*
+    - App.js *(File)*
+    - App.test.js *(File)*
+    - components *(Folder)*
+      - adminpanel *(Folder)*
+        - Dashboard.js *(File)*
+        - managepermission *(Folder)*
+          - AddPermission.js *(File)*
+          - Permission.js *(File)*
+        - manageroles *(Folder)*
+          - AddRole.js *(File)*
+          - ManageRole.js *(File)*
+        - manageusers *(Folder)*
+          - AddUser.js *(File)*
+          - EditUser.js *(File)*
+          - ManageUsers.js *(File)*
+      - authentication *(Folder)*
+        - SignIn.js *(File)*
+        - SignUp.js *(File)*
+      - common *(Folder)*
+        - Footer.js *(File)*
+        - Navbar.js *(File)*
+        - Sidebar.js *(File)*
+        - SmallscreenSidebar.js *(File)*
+      - context *(Folder)*
+        - ThemeContext.js *(File)*
+    - index.css *(File)*
+    - index.js *(File)*
+    - logo.svg *(File)*
+    - media *(Folder)*
+    - reportWebVitals.js *(File)*
+    - setupTests.js *(File)*
+
